@@ -1,0 +1,36 @@
+
+.container, .modal-footer{
+    border: 1px solid;
+    margin: auto;
+    width:20%;
+    padding: 35px;
+    background-color: whitesmoke;
+}
+.signup-tags {
+    text-align: center;
+}
+.signup-form > input{
+    width: 258px;
+    height: 36px;
+    margin-bottom: 10px;
+}
+.signup{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/486/289/original/gradient-background-instagram-free-vector.jpg);
+}
+.signup-button{
+    background-color:rgb(0, 0, 255);
+    color: white;
+    border-color: rgb(0, 0, 255);
+    width: 258px;
+    height: 36px;
+    
+}
+.title{
+    font-family:sans-serif;
+    font-size: 40px;
+}
+@media only screen and (max-width:480px){
+    .container, .modal-footer{
+        width: 100%;
+    }
+}
